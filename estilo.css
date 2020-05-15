@@ -1,0 +1,98 @@
+/* Estilo index*/
+.inicio1{
+   
+    background-color: white;
+}
+.inicio2{
+    text-align: center;
+    border: 1px solid #000033;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-right: 80px;
+    margin-left: 80px;
+    background-color: #000033;
+    background-image:url("doguinho-ola.png");
+    background-repeat: no-repeat;
+    background-position-y:100;
+    background-position: right bottom;
+
+}
+.inicio3{
+    text-align: center;
+    border: 5px solid white;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    width: 25%;
+    height: 25%;
+    background-color: #e1e1d0;
+    
+    
+}
+
+/*Fim estilo Index*/
+
+/*Estilo Home/Outras Páginas*/
+.div1{background-color:#e1e1d0;
+}
+.w3-sidebar {width: 120px; background: #000033;}
+
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+
+.w3-row-padding img {margin-bottom: 12px}
+
+.corLetraNavbar{color:#e1e1d0}
+
+#main {margin-left: 120px}
+
+.guia-1{   
+           
+}
+/*Telas Pequenas*/
+.myNavbar{
+    top: 100px;
+}
+@media only screen and (max-width: 600px) 
+    {#main 
+        {margin-left: 0; margin-top: 100px;}
+        .inicio3
+        {   
+            width: 75%;
+            background-color: rgb(225,225,208,0.8); 
+         
+            
+        }
+    }
+/*Fim telas pequenas*/
+/*fim estilo Home*/
+/*Elementos do dropdown lateral */
+        
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            width: 150px;
+       }
+
+
+
+        li ul {
+            position: absolute;
+            left: 149px;
+            top: 0;
+            display: none;
+       }
+       
+
+        ul li a {
+            display: block;
+            text-decoration: none;
+            color: black;
+            background: #fff;
+            padding: 5px;
+            border: 1px solid #ccc; 
+       }
+
+       li:hover ul { display: block; }
+
+
+
