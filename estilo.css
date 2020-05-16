@@ -1,6 +1,5 @@
 /* Estilo index*/
 .inicio1{
-   
     background-color: white;
 }
 .inicio2{
@@ -25,17 +24,20 @@
     width: 25%;
     height: 25%;
     background-color: #e1e1d0;
-    
-    
+
+
 }
 
 /*Fim estilo Index*/
 
-/*Estilo Home/Outras Páginas*/
-.div1{background-color:#e1e1d0;
-}
-.w3-sidebar {width: 120px; background: #000033;}
+/*Estilo Home*/ /*Outras Páginas*/
+.div1{background-color:#e1e1d0;}
 
+.w3-sidebar {width: 120px}
+
+#est{
+    margin:  120px;
+}
 body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
 .w3-row-padding img {margin-bottom: 12px}
@@ -44,9 +46,6 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
 #main {margin-left: 120px}
 
-.guia-1{   
-           
-}
 /*Telas Pequenas*/
 .myNavbar{
     top: 100px;
@@ -55,17 +54,17 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     {#main 
         {margin-left: 0; margin-top: 100px;}
         .inicio3
-        {   
+        {
             width: 75%;
             background-color: rgb(225,225,208,0.8); 
-         
-            
         }
     }
 /*Fim telas pequenas*/
 /*fim estilo Home*/
 /*Elementos do dropdown lateral */
-        
+
+/*
+
         ul {
             margin: 0;
             padding: 0;
@@ -81,7 +80,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
             top: 0;
             display: none;
        }
-       
+
 
         ul li a {
             display: block;
@@ -94,5 +93,4 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
        li:hover ul { display: block; }
 
-
-
+*/

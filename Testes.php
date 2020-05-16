@@ -23,7 +23,7 @@
   <a class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <i class="fa fa-truck " style="font-size:48px; color: #e1e1d0"></i>
     <li><a style="color:white">Estoque</a>
-        <ul> 
+        <ul style="position: relative; margin: 0px;" > 
              <li><a href="Fornecedores.php">Fornecedores</a></li> 
              <li><a href="Produtos.php">Produtos</a></li> 
              <li><a href="ControleEstoque.php">Controle</a></li> 

@@ -18,6 +18,16 @@ function horario(){
     document.getElementById('relogio').innerHTML = hora+":"+min;
     setTimeout('horario()', 500);
 }
+function expande(id, id2){
+    document.getElementById(id).style.display = "block";
+    document.getElementById(id2).style.width = "300px";
+   }
+
+        
+function recolhe(id, id2){
+    document.getElementById(id).style.display = "none";
+    document.getElementById(id2).style.width = "120px";
+    }
 
 
 
